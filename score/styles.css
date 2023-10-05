@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Staatliches&display=swap');
+
+:root {
+    --font-standart: 'Abril Fatface', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #11BF9F;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.playing {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eb8662;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    color: #fae5cf;
+    font-size: 1.8rem;
+    font-family: var(--font-standart);
+}
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+#placar {
+    margin-top: 20px;
+    font-size: 3.5rem;
+}
+select {
+    margin-left: 10px;
+}
+div.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    width: 100%;
+    height: 30px;
+}
+
+div.btn button {
+    width: 33.33%;
+}
+
+span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
